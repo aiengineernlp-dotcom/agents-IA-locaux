@@ -1,0 +1,16 @@
+ollama>=0.5.0
+python-dotenv
+requests
+beautifulsoup4
+lxml
+pandas
+numpy
+scikit-learn
+moviepy>=2.0
+pillow
+pyyaml
+pydantic
+
+# Agent DaVinci Resolve (optionnel) : le pont lui-même s'installe via
+# scripts/setup_resolve_bridge.sh, mais le client a besoin du paquet mcp.
+mcp>=1.0.0
